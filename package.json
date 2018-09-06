@@ -1,0 +1,27 @@
+{
+  "name": "@slikts/eslint-config-prettier",
+  "version": "5.1.0",
+  "description": "👾💪",
+  "keywords": [
+    "eslint",
+    "slikts",
+    "airbnb",
+    "prettier"
+  ],
+  "author": "slikts <dabas@untu.ms>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:slikts/eslint-config-slikts.git#prettier"
+  },
+  "peerDependencies": {
+    "eslint-plugin-prettier": "^2.5.0",
+    "prettier": "^1.14.2",
+    "eslint": "^5.5.0"
+  },
+  "devDependencies": {}
+}
