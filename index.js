@@ -5,14 +5,14 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'func-names': [1, 'as-needed'],
+    'no-void': 'off',
     quotes: [1, 'backtick'],
     'prettier/prettier': [
-      'error',
+      'warn',
       {
         trailingComma: 'all',
         semi: false,
-        // singleQuote: true,
-        printWidth: 100,
+        printWidth: 64,
       },
     ],
   },
