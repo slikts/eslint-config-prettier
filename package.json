@@ -2,6 +2,10 @@
   "name": "@slikts/eslint-config-prettier",
   "version": "5.2.0",
   "description": "👾💪",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint": "eslint .eslintrc.js"
+  },
   "keywords": [
     "eslint",
     "slikts",
@@ -19,10 +23,15 @@
     "url": "git@github.com:slikts/eslint-config-slikts.git#prettier"
   },
   "peerDependencies": {
+    "eslint": "^5.16.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.18.2",
-    "eslint": "^6.1.0"
+    "prettier": "^1.18.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  }
 }
