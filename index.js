@@ -1,3 +1,4 @@
+const prettierConfig = require('.prettierrc.json')
 const { resolve } = require
 
 module.exports = {
@@ -9,11 +10,7 @@ module.exports = {
     quotes: [1, 'backtick'],
     'prettier/prettier': [
       'warn',
-      {
-        trailingComma: 'all',
-        semi: false,
-        printWidth: 64,
-      },
+      prettierConfig,
     ],
   },
   env: {
