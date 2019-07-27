@@ -1,5 +1,7 @@
 # @slikts/eslint-config-prettier
 
+[![Build Status](https://dev.azure.com/slikts/eslint-config-prettier/_apis/build/status/slikts.eslint-config-prettier?branchName=master)](https://dev.azure.com/slikts/eslint-config-prettier/_build/latest?definitionId=1&branchName=master)
+
 ```sh
 npm i -D @slikts/eslint-config-prettier
 npx install-peerdeps --dev @slikts/eslint-config-prettier
