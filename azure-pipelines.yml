@@ -10,12 +10,16 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
-- script: |
-    npm install
-    npm run lint
-  displayName: 'npm install and lint'
+- task: Npm@1
+  inputs:
+    command: install
+
+- script: npm run lint
+  displayName: 'Self-validate'
 
 - task: Npm@1
   inputs:
     command: publish
     publishEndpoint: npm
+  condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
+  displayName: "Publish to npm"
