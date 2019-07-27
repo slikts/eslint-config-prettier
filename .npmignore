@@ -1,3 +1,4 @@
-.npm*
-.eslintignore
+.*
 azure-pipelines*
+!.prettierrc.json
+!.eslintrc.js
