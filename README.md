@@ -1,7 +1,7 @@
 # @slikts/eslint-config-prettier
 
 [![Build Status](https://dev.azure.com/slikts/eslint-config-prettier/_apis/build/status/slikts.eslint-config-prettier?branchName=master)](https://dev.azure.com/slikts/eslint-config-prettier/_build/latest?definitionId=1&branchName=master) 
-![npm](https://img.shields.io/npm/v/@slikts/eslint-config-prettier)
+[![npm](https://img.shields.io/npm/v/@slikts/eslint-config-prettier)](https://www.npmjs.com/package/@slikts/eslint-config-prettier)
 
 Reusable, self-validated eslint and Prettier config.
 
