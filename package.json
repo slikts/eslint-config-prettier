@@ -4,7 +4,10 @@
   "description": "👾💪",
   "main": ".eslintrc.js",
   "scripts": {
-    "lint": "eslint .eslintrc.js"
+    "lint": "eslint .eslintrc.js",
+    "preversion": "npm test",
+    "version": "npm run lint",
+    "postversion": "git push && git push --tags"  
   },
   "keywords": [
     "eslint",
