@@ -22,5 +22,5 @@ steps:
   inputs:
     command: publish
     publishEndpoint: npm
-  condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
+#  condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
   displayName: "Publish to npm"
